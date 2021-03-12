@@ -27,7 +27,7 @@ export enum AnalysisResultTypeEnum {
 
 export type ResultSymbol = {
   name: string;
-  line?: number;
+  line: number;
   usedInModule: boolean;
 };
 
